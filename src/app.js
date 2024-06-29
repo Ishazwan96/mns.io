@@ -1,7 +1,8 @@
 document.addEventListener('alpine:init', () => {
     Alpine.data('products', () => ({
         items: [
-            { id:1,name:'4 Channel', img:'1.jpg', price: 1680,
+            { id:1,name:'4 Channel', img:'1.jpg', price: 1680,                
+             features: ['FULL HD','1 x DVR Recorder','1 x 1TB HDD','4 x Camera (Dome/Bullet)','Wiring/Installation']
             },
             { id:2,name:'8 Channel', img:'1.jpg', price: 3080,
                 features: ['FULL HD','1 x DVR Recorder','1 x 2TB HDD','8 x Camera (Dome/Bullet)','Wiring/Installation']
